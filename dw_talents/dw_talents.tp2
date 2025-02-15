@@ -398,7 +398,7 @@ BEGIN @528 DESIGNATED 40160 GROUP @5
 
 REQUIRE_PREDICATE GAME_IS "bgee bg2ee eet iwdee" @50
 FORBID_COMPONENT "setup-stratagems.tp2" 5900 @70
-REQUIRE_PREDICATE (MOD_IS_INSTALLED "dw_talents/dw_talents.tp2" 40190 || IS_AN_INT dw_talents_component_40150_installed) @99
+REQUIRE_PREDICATE (MOD_IS_INSTALLED "dw_talents/dw_talents.tp2" 40150 || IS_AN_INT dw_talents_component_40150_installed) @99
 
 
 LAF run STR_VAR file=barbarian_wizard_slayer location=class_race tra=barbarian END
